@@ -2,7 +2,7 @@
 # Maintainer: Aaron Bassett <abassett@qnx.com>
 pkgname=build-base
 pkgver=0.1
-pkgrel=1
+pkgrel=${pkgrel:-0}
 url=https://oss.qnx.com
 pkgdesc="Meta package for build base"
 depends="qnx-microkernel-dev clang make"
