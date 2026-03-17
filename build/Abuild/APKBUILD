@@ -9,6 +9,7 @@ depends="qnx-microkernel-dev clang make"
 arch="noarch"
 license="MIT"
 options="!check"
+options="$options ${DISABLE_CHECK:+!check}"
 
 package() {
 	mkdir -p "$pkgdir"
